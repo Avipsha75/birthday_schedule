@@ -31,7 +31,7 @@ for index, row in df.iterrows():
         # Send Email
         def send_email(email, name):
             sender_email = "avipshashrestha75@gmail.com"
-            password = "kldh uvgm jkbe czhr"  # Use environment variables for security
+            password = 
             receiver_email = email
             
             message = MIMEMultipart()
